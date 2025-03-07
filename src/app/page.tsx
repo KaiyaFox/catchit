@@ -1,6 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import debounce from "lodash.debounce";
+import Link from "next/link";
 
 
 export default function Home() {
@@ -267,6 +268,7 @@ export default function Home() {
                 {/* Footer */}
                 <footer className="mt-12 text-center text-sm text-gray-600 dark:text-gray-400">
                     <p>&copy; 2025 Catchit Inc. | All rights reserved. (Sort of jorking it.)</p>
+                    <p><Link href="github.com">GitHub</Link></p>
                 </footer>
             </div>
         </div>
