@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useState } from "react";
 import debounce from "lodash.debounce";
-import Link from "next/link";
+
 
 
 export default function Home() {
@@ -158,7 +158,7 @@ export default function Home() {
                 {/* Header */}
                 <header className="mb-8">
                     <h1 className="text-5xl font-bold text-indigo-500 dark:text-yellow-400 mb-4">
-                        Welcome to Catchit 🐾
+                        Catchit - URL to MP3.. Like rn
                     </h1>
                     <p className="text-xl text-gray-700 dark:text-gray-300">
                         The app that gets your hands deep into the cat litter. No fluff, No scam bullshit.
@@ -264,12 +264,6 @@ export default function Home() {
                         </div>
                     </div>
                 </main>
-
-                {/* Footer */}
-                <footer className="mt-12 text-center text-sm text-gray-600 dark:text-gray-400">
-                    <p>&copy; 2025 Catchit Inc. | All rights reserved. (Sort of jorking it.)</p>
-                    <p><Link href="github.com">GitHub</Link></p>
-                </footer>
             </div>
         </div>
     );
